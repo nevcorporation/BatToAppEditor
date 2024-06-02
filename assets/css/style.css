@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    font-family: verdana;
+    overflow-x: hidden;
+    user-select: none;  
+}
+
+.topimg {
+    background-image: url(/assets/media/background.png);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    height: 70pt;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    padding: 5pt;
+    text-align: center;
+    box-shadow: -3px 2px 130px 0px rgba(0,0,0,0.75);
+}
+
+.logo {
+    width: 130pt;
+    height: 130pt;
+    border-radius: 100px;
+    margin-left: -20pt;
+}
+
+.logo:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+.menu {
+    color: white;
+    background-image: url(/assets/media/background.png);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    left: -100%;
+    width: 200pt;
+    height: 200pt;
+    position: fixed;
+    transition: left 0.5s ease-in-out;
+    padding: 10pt;
+    
+}
+
+.menu.slide-in {
+    left: 0;
+}
+
+.menu h2:hover {
+    color: grey;
+    cursor: pointer;
+
+}
+.downloads {
+    margin: 10pt;
+    border: 2px solid black;
+    width: 95%;
+    border-radius: 10px;
+    height: 75pt;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.downs:hover {
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+
